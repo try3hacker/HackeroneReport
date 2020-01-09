@@ -1,0 +1,5 @@
+CRLF 
+<URL>/xxcrlftest%0d%0aSet-Cookie:%20test=test;domain=.
+<URL>/test%0dSet-Cookie:test2=test;domain=.
+<URL>/%0dSet-Cookie:csrf_token=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;
+<URL>/test%0dSet-Cookie:crlf=injection;domain=.
