@@ -1,0 +1,5 @@
+RedirectCode
+https://blackfan.ru/x?r=
+
+XSS Code
+https://blackfan.ru/x?r=/<svg/onload=alert(document.domain)>/%252e%252e'
